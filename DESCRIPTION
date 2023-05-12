@@ -1,0 +1,17 @@
+Package: NBEntropy
+Title: Newcomb-Benford's Entropy
+Version: 0.9
+Authors@R: 
+    person("Marcelo", "Rivadeneira", , "mrivadent@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Estimate Newcomb-Benford entropy based on Shannon's index
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    benford.analysis
+Depends: 
+    R (>= 2.10)
+LazyData: true
